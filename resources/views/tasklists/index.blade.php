@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <h1>ALL TASKS</h1>
+    <h1>ALL TASKS TO DO</h1>
 
     @if (count($tasklists) > 0)
         <ul>
