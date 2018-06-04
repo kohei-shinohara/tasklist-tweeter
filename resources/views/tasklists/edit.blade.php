@@ -6,6 +6,9 @@
 
     {!! Form::model($tasklist, ['route' => ['tasklists.update', $tasklist->id], 'method' => 'put']) !!}
 
+        {!! Form::label('status', 'STATUS:') !!}
+        {!! Form::text('status') !!}
+
         {!! Form::label('content', 'TASK:') !!}
         {!! Form::text('content') !!}
 
