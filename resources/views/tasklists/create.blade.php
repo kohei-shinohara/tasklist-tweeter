@@ -9,7 +9,7 @@
             {!! Form::model($tasklist, ['route' => 'tasklists.store']) !!}
             
                 <div class="form-group">
-                    {!! Form::label('status', 'TITLE:') !!}
+                    {!! Form::label('status', 'STATUS:') !!}
                     {!! Form::text('status', null, ['class' => 'form-control']) !!}
                 </div>
                     
