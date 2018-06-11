@@ -19,7 +19,4 @@
     
     {!! link_to_route('tasklists.edit', 'EDIT THIS TASK', ['id' => $tasklist->id], ['class' => 'btn btn-default']) !!}
     
-    {!! Form::model($tasklist, ['route' => ['tasklists.destroy', $tasklist->id], 'method' => 'delete']) !!}
-        {!! Form::submit('DELETE', ['class' => 'btn btn-danger']) !!}
-    {!! Form::close() !!}
 @endsection
